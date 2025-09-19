@@ -107,4 +107,4 @@ async function handleRequest(request: Request): Promise<Response> {
   }
 }
 
-await serve(handleRequest);
+Deno.serve(handleRequest);

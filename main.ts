@@ -107,7 +107,4 @@ async function handleRequest(request: Request): Promise<Response> {
   }
 }
 
-// 启动服务器
-const port = 3001;
-console.log(`Crypto service running on http://localhost:${port}`);
-await serve(handleRequest, { port });
+await serve(handleRequest);

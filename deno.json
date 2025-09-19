@@ -1,5 +1,8 @@
 {
   "tasks": {
     "dev": "deno run --watch --allow-read --allow-net main.ts"
+  },
+  "imports": {
+    "@wecom/crypto": "npm:@wecom/crypto@^1.0.1"
   }
 }
